@@ -50,15 +50,15 @@
                 <div class="mb-0 flex-center">
                   <!-- Facebook -->
                   <a class="fb-ic white-link" href="http://www.facebook.com/PranongOi">
-                    <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    <i class="fab fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                   </a>
                   <!--Instagram-->
                   <a class="ins-ic white-link" href="https://www.instagram.com/p.punkrawk/">
-                    <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                   </a>
                   <!--Pinterest-->
                   <a class="pin-ic white-link" href="https://github.com/pranong/">
-                    <i class="fa fa-github fa-lg white-text fa-2x"> </i>
+                    <i class="fab fa-github fa-lg white-text fa-2x"> </i>
                   </a>
                 </div>
               </div>
@@ -68,7 +68,9 @@
           </div>
           <!-- Footer Elements -->
           <!-- Copyright -->
-          <div class="footer-copyright text-center py-2" style="font-family: Quicksand, sans-serif;background-color: #005A66;">© 2018 Nuttapat
+          <div class="footer-copyright text-center py-2" style="font-family: Quicksand, sans-serif;background-color: #005A66;">© 2018 Nuttapat Dev By
+                    <i class="fab fa-vuejs fa-xl white-link fa-2x"> </i>
+                  Vue.js
           </div>
           <!-- Copyright -->
         </footer>
@@ -105,7 +107,15 @@ li a {
   text-decoration: none;
 }
 .white-link{color:#fff;}
+.green-link{color:rgb(34, 240, 120);background-color: #fff;border-radius: 1000px;font-size: 100px}
 a:hover {
     color: rgb(93, 185, 238);
+}
+vr {
+    border:         none;
+    border-left:    2px solid hsla(200, 10%, 50%,100);
+    border-color: #fff;
+    height:         300px;
+    width:          1px;
 }
 </style>

@@ -11,9 +11,9 @@
           <div class="col-lg-6">
             <h1>Hello,</h1><br>
             <h2>I'm Nuttapat Panong</h2><br>
-            <router-link to="/Resume"><button type="button" class="btn btn-info btn-circle btn-xl"><i class="fa fa-newspaper-o fa-lg"></i><br><font size="4">Resume</font></button></router-link>
-            <router-link to="/Curriculum"><button type="button" class="btn btn-warning btn-circle btn-xl"><i class="fa fa-file-pdf-o fa-lg"></i><br><font size="4">CV</font></button></router-link>
-            <router-link to="/Grade"><button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-download fa-lg"></i><br><font size="4">Grade</font></button></router-link><br>
+            <router-link to="/Resume"><button type="button" class="btn btn-info btn-circle btn-xl"><i class="far fa-address-book fa-lg"></i><br><font size="4">Resume</font></button></router-link>
+            <router-link to="/Curriculum"><button type="button" class="btn btn-warning btn-circle btn-xl"><i class="far fa-file-pdf fa-lg"></i><br><font size="4">CV</font></button></router-link>
+            <router-link to="/Grade"><button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fas fa-list-ol fa-lg"></i><br><font size="4">Grade</font></button></router-link><br>
             <a style="font-family: Quicksand, sans-serif;padding-bottom: 20px;">
               I am interested in Web / App Development career.
               I am a productive team player, fast
