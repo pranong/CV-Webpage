@@ -17,13 +17,17 @@
           <h4>ประสบการณ์การทำวิจัย (Research experience)</h4>
           Safe Life App + IoT AED Cabinet สร้างตู้ AED โดยติด อปกรณ์ IoT เพื่อ ดูค่าความชื้น ค่าอุณหภูมิ ตําแหน่งของตู้ AED ดูสถานะในขณะนั้นของตู้ ว่าถูกใช้งานอยู่หรือไม่โดยใช้ Ultrasonic Sensor ในการตรวจสอบ โดยจะสามารถดูสถานะของตู้แต่ละตู้ได้ที่ web และ Application โดย Application จะสามารถนำทางไปที่ตู้ พร้อมทั้งมี ระบบ Video calling เพื่อไว้ให้หน่วยกู้ภัยใช้เพื่อคุยกับแพทย์ได้<br>
           <a href="https://github.com/pranong/AED-Center">https://github.com/pranong/AED-Center</a><br>
-          <div v-if="selectedImage" max-width="85vw">
-            <img :src="selectedImage" alt="" width="70%" @click.stop="selectedImage = null">
+          <div class="container" v-if="selectedImage" max-width="85vw">
+            <img :src="selectedImage" alt="" width="70%">
+            <div class="top-right"></div>
+              <font class="text-danger" style="position: absolute;">
+                <i class="fas fa-times-circle fa-xl fa-2x" style="vertical-align: sub;" @click.stop="selectedImage = null"></i>
+              </font>
             <hr>
           </div>
 
           <div v-for="url in images">
-            - <img :src="url" width="100px" @click="zoom(url)"><br>
+            - <img :src="url" width="100px" @click="zoom(url)"><br><br>
           </div>
           <hr>
           <h4>กิจกรรมนอกหลักสูตร (Extracurricular activities)</h4>
@@ -219,5 +223,12 @@ li {
         width: 100%;
     }
 }
-
+i:hover {
+    color: rgb(93, 185, 238);
+}
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
 </style>
