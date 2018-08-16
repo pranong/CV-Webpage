@@ -74,10 +74,11 @@
                 <button type="button" class="btn btn-warning btn-circle btn-lg"><i class="fa fa-cog fa-md"></i></button><br><font size="2">Programming Skills</font>
                 <hr>
                 <font size="2">
-                Vue.JS <br>
-                React-Native <br>
-                Backend with Node.js <br>
-                html/css <br>
+                Vue.JS <i class="fab fa-vuejs fa-lg fa-2x right"></i><br>
+                React-Natives <i class="fab fa-react fa-lg fa-2x right"></i><br>
+                Backend with Node.js <i class="fab fa-node fa-lg fa-2x right"></i><br>
+                Javascript <i class="fab fa-js fa-lg fa-2x right"></i><br>
+                html/css <i class="fab fa-html5 fa-lg fa-2x right"></i><br>
                 </font>
               </div>
             </div>
@@ -95,10 +96,10 @@
                       Writing   <br>
                     </div>
                     <div class="col">
-                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star-o fa-md"></i><br>
-                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star-o fa-md"></i><i class="fa fa-star-o fa-md"></i><br>
-                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star-o fa-md"></i><br>
-                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star-o fa-md"></i><br>
+                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="far fa-star fa-md"></i><br>
+                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="far fa-star fa-md"></i><i class="far fa-star fa-md"></i><br>
+                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="far fa-star fa-md"></i><br>
+                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="far fa-star fa-md"></i><br>
                     </div><br>
                   </div>
                 </font>
@@ -181,10 +182,11 @@
                 <button type="button" class="btn btn-warning btn-circle btn-lg"><i class="fa fa-cog fa-md"></i></button><br><font size="2">ทักศะทางด้าน โปรแกรมมิ่ง</font>
                 <hr>
                 <font size="2">
-                Vue.JS <br>
-                React-Native <br>
-                Backend with Node.js <br>
-                html/css <br>
+                Vue.JS <i class="fab fa-vuejs fa-lg fa-2x right"></i><br>
+                React-Natives <i class="fab fa-react fa-lg fa-2x right"></i><br>
+                Backend with Node.js <i class="fab fa-node fa-lg fa-2x right"></i><br>
+                Javascript <i class="fab fa-js fa-lg fa-2x right"></i><br>
+                html/css <i class="fab fa-html5 fa-lg fa-2x right"></i><br>
                 </font>
               </div>
             </div>
@@ -202,10 +204,10 @@
                       Writing   <br>
                     </div>
                     <div class="col">
-                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star-o fa-md"></i><br>
-                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star-o fa-md"></i><i class="fa fa-star-o fa-md"></i><br>
-                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star-o fa-md"></i><br>
-                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star-o fa-md"></i><br>
+                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="far fa-star fa-md"></i><br>
+                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="far fa-star fa-md"></i><i class="far fa-star fa-md"></i><br>
+                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="far fa-star fa-md"></i><br>
+                      <i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="fa fa-star fa-md"></i><i class="far fa-star fa-md"></i><br>
                     </div><br>
                   </div>
                 </font>
@@ -287,5 +289,7 @@ li {
   margin-bottom: 20px;
   margin-right: 20px;
 }
-
+.right {
+    float: right;
+}
 </style>
