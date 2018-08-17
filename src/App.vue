@@ -53,6 +53,9 @@
                     <i class="fab fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                   </a>
                   <!--Instagram-->
+                  <a class="ins-ic white-link" href="https://www.facebook.com/messages/t/PranongOi">
+                    <i class="fab fa-facebook-messenger fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                  </a>
                   <a class="ins-ic white-link" href="https://www.instagram.com/p.punkrawk/">
                     <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                   </a>

@@ -21,31 +21,30 @@
             <img :src="selectedImage" alt="" width="70%">
             <div class="top-right"></div>
               <font class="text-danger" style="position: absolute;">
-                <i class="fas fa-times-circle fa-xl fa-2x" style="vertical-align: sub;" @click.stop="selectedImage = null"></i>
+                <i class="fas fa-times-circle fa-xl fa-2x" @click.stop="selectedImage = null"></i>
               </font>
             <hr>
           </div>
 
-          <div v-for="url in images">
-            - <img :src="url" width="100px" @click="zoom(url)"><br><br>
+          <div v-for="url in images" v-bind:key="url.id">
+            - <img :src="url" width="100px"><i class="fas fa-search" @click="zoom(url)"></i><br><br>
           </div>
           <hr>
           <h4>กิจกรรมนอกหลักสูตร (Extracurricular activities)</h4>
           เข้าร่วมงาน 24 Hours Hacking Hospital Services Development<br>
           เป็นผู้ช่วยวิทยากร ในหัวข้อเรื่อง พัฒนาศักยภาพทุนมนุษย์ (IoT)<br><hr>
           <h4>ทักษะ (Skills)</h4>
-          •	React-Native<br>
-          •	Backend with Node.js<br>
-          •	APIs<br>
-          •	HTML/CSS<br>
-          •	Bootstrap<br>
-          •	Vue.JS<br><hr>
+          • React-Native<br>
+          • Backend with Node.js<br>
+          • APIs<br>
+          • HTML/CSS<br>
+          • Bootstrap<br>
+          • Vue.JS<br><hr>
           <H4>ทักษะภาษาอังกฤษ (English Skills)</H4>
-          •	Listening<br>
-          •	Speaking <br>
-          •	Reading<br>
-          •	Writing<br><hr>
-
+          • Listening<br>
+          • Speaking <br>
+          • Reading<br>
+          • Writing<br><hr>
         </div>
       </div>
     </div>
@@ -106,6 +105,7 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:800i');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:700');
+@import url('https://fonts.googleapis.com/css?family=Kanit:700i');
 h1, h2 {
   font-weight: normal;
 }
